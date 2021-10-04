@@ -10,5 +10,7 @@ module.exports = {
     {
       resolve: require.resolve(`../gtdg-ch9-source-plugin`)
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }

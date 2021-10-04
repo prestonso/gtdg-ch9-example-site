@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: require.resolve(`../gtdg-ch9-source-plugin`)
+    },
+  ],
 }
